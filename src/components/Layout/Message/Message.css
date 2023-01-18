@@ -1,0 +1,17 @@
+.message__container {
+    width: 100%;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    border: 1px solid var(--dark);
+}
+
+.success {
+    color: var(--dark);
+    background: var(--green);
+}
+
+.error {
+    color: var(--dark);
+    background: var(--red);
+}

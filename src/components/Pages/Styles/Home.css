@@ -1,0 +1,24 @@
+.container__home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__home h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.container__home span {
+    color: var(--yellow);
+}
+
+.container__home p {
+    color: var(--d_grey);
+    margin-bottom: 40px;
+}
+
+.container__home img {
+    width: 350px;
+    margin-top: 40px;
+}

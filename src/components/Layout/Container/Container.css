@@ -1,0 +1,9 @@
+.container {
+    margin: 2em 5em;
+    min-height: 80vh;
+    border-radius: 5px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "name": "Carga horária",
+      "budget": "50000",
+      "category": {
+        "id": "Desenvolvimento",
+        "name": 2
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Sala p/ os dev",
+      "budget": "50000",
+      "category": {
+        "id": "Infra",
+        "name": 4
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "Spcd atualizado",
+      "budget": "2000",
+      "category": {
+        "id": "Desenvolvimento",
+        "name": 2
+      },
+      "cost": 200,
+      "services": [
+        {
+          "name": "Exportação dashboard",
+          "cost": "100",
+          "description": "Descrição teste",
+          "id": "c499e789-0e9b-4b79-bcde-b4114c943d58"
+        },
+        {
+          "name": "Exportação dashboard",
+          "cost": "100",
+          "description": "Descrição teste",
+          "id": "c499e789-0e9b-4b79-bcde-b4114c943d58"
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planajamento"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.container__new__project {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+}

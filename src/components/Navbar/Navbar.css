@@ -1,0 +1,18 @@
+.header {
+    padding: 1.5em 5em;
+    
+    display: flex;
+    color: var(--white);
+    background: var(--dark);
+    justify-content: space-between;
+}
+
+.header ul {
+    gap: 2em;
+    display: flex;
+    list-style-type: none;
+}
+
+.header a:hover {
+    color: var(--white);
+}

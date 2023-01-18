@@ -1,0 +1,100 @@
+.card__container {
+    padding: 1em;
+    min-width: 250px;
+    border-radius: 5px;
+    border: 2px solid var(--dark);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__container h4 {
+    padding: .5em 0;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+
+    text-align: center;
+    color: var(--dark);
+    background: var(--yellow);
+}
+
+.card__container p {
+    color: var(--d_grey);
+}
+
+.card__container span {
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.category__text {
+    display: flex;
+    align-items: center;
+}
+
+.category__text span {
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: var(--grey);
+}
+
+.category__text .infra {
+    background: var(--green);
+}
+
+.category__text .desenvolvimento {
+    background: var(--red);
+}
+
+.category__text .design {
+    background: var(--yellow);
+}
+
+.category__text .planajamento {
+    background: var(--dark);
+}
+
+.card__actions {
+    gap: .5em;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__actions a, 
+.card__actions button {
+    gap: 5px;
+    width: 100%;
+    opacity: .6;
+    padding: .5em;
+    transition: .5s;
+    font-size: .8em;
+    border-radius: 5px;
+
+    border: none;
+    display: flex;
+    cursor: pointer;
+    color: var(--dark);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__actions a {
+    background: var(--yellow);
+}
+
+.card__actions button {
+    background: var(--red);
+}
+
+.card__actions a:hover,
+.card__actions button:hover {
+    opacity: 1;
+}

@@ -1,0 +1,25 @@
+.container__input {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__input label {
+    padding: .2em;
+}
+
+.btn__submit {
+    margin-top: 1em;
+    transition: .5s;
+    padding: .5em 1em;
+    border-radius: 5px;
+
+    opacity: .6;
+    border: none;
+    cursor: pointer;
+    color: var(--dark);
+    background: var(--yellow);
+}
+
+.btn__submit:hover {
+    opacity: 1;
+}
